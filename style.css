@@ -1,0 +1,78 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}
+
+.character-info {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    line-height: 23px;
+    text-align: center;
+}
+
+.combat-log {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    line-height: 21px;
+    text-align: center;
+}
+
+.message {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.victory-message {
+    color: #00ff00;
+}
+
+.defeat-message {
+    color: #ff0000;
+}
+
+.combat-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attack-btn {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.attack-btn:hover {
+    background-color: #cc0000;
+}
+
+br {
+    
+}
